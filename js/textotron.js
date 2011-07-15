@@ -144,6 +144,7 @@
 		$('#textotronButton').click(function() {
 			outputText = textotron($('#textInput').val(), $("#garble").val(), $("#outputLength").val());
 			$("#outputText").text(outputText);
+			_gaq.push(['_trackEvent', 'Garble', 'Press', $("#garble").val()]);
 		});
 		
 		$('.watermarked').each(function() {
