@@ -1,0 +1,385 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	background: #d5d5d5;
+}
+
+body, th, td, input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+form {
+}
+
+fieldset {
+}
+
+input, textarea {
+	font-weight: bold;
+}
+
+input.text {
+	padding: 2px 5px;
+	background: #F8FAEB;
+	border-top: 1px solid #4D5719;
+	border-left: 1px solid #4D5719;
+	border-right: 1px solid #D6E48E;
+	border-bottom: 1px solid #D6E48E;
+}
+
+#textotronButton {
+	background: #B8D03B;
+	border-top: 1px solid #D6E48E;
+	border-left: 1px solid #D6E48E;
+	border-right: 1px solid #4D5719;
+	border-bottom: 1px solid #4D5719;
+	color: #FFFFFF;
+	padding: 5px;
+	font-weight: bold;
+}
+
+h1, h2, h3 {
+	margin-top: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #626456;
+}
+
+h1 {
+	letter-spacing: -.04em;
+	font-size: 3em;
+}
+
+h2 {
+	letter-spacing: -.05em;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #8D8E85;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted #B8D03B;
+	color: #3C7BCF;
+}
+
+a:hover {
+	border: none;
+	background: #B8D03B;
+	color: #FFFFFF;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #626456;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	border-bottom: 1px dotted #B8D03B;
+	color: #B8D03B;
+}
+
+hr {
+	display: none;
+}
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 978px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+#menu {
+	float: left;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 25px;
+	margin-right: 1px;
+	padding: 10px 20px 0 20px;
+	background: #E9EED0;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #8C8F7D;
+}
+
+#menu a:hover {
+	background: #DDE6AB;
+	color: #2C2E22;
+}
+
+#menu .current_page_item a {
+	background: #B8D03B;
+	color: #FFFFFF;
+}
+
+#settings {
+	float: right;
+	padding-top: 7px;
+	text-align: right;
+}
+
+#settings a {
+	font-weight: bold;
+}
+
+
+/* Logo */
+
+#logo {
+	width: 978px;
+	margin: 0 auto;
+	height: 95px;
+	background: #333 ;
+	border: 1px solid #B8D03B;
+	
+}
+
+#logo h1{
+	float: left;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+	padding: 10px 0px 0px 0px;
+}
+
+
+#logo h1  a{
+	color: #eee;
+	text-indent:-9999px;
+	width: 420px;
+	height: 90px;
+	display:block;
+	background-image: url(images/logo.png);
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	
+	color: #eee;
+}
+
+/* Page */
+
+#page {
+	width: 978px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: #FFFFFF;
+	border: 1px solid #B8D03B;
+	border-top: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 580px;
+	padding: 0 24px 0 21px;
+}
+
+.post {
+}
+
+.post .title {
+	margin: 0;
+	font-weight: normal;
+}
+
+.post h1.title {
+	font-size: 2.4em;
+}
+
+.post .entry {
+	padding-bottom: 30px;
+}
+
+.post .meta a {
+	color: #CFCFCF;
+}
+
+.post .links {
+	margin: 0;
+}
+
+.post .tags {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.post .links a, .post .tags a {
+	border: none;
+}
+
+/* Recent Posts */
+
+#recent-posts {
+}
+
+#recent-posts h3 {
+	margin: 0;
+}
+
+#recent-posts p {
+	margin: 0 0 0 0;
+	font-size: .9em;
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	background: url(images/img03.gif) repeat-y;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	margin-bottom: 1em;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li li {
+	margin: 0;
+}
+
+.sidebar li h2 {
+	margin: 0 0 1em 0;
+}
+
+#sidebar1 {
+	width: 300px;
+	padding: 5px 10px 0 11px;
+}
+
+#sidebar1 h2 {
+	margin-top: 0px;
+	margin-bottom: 21px;
+}
+
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	font-size: .8em;
+}
+
+
+
+
+#textInput {
+	width: 576px;
+	font-family: "Lucida Sans Unicode";
+	font-weight: normal;
+	margin: 5px 0px 0px 0px;
+}
+
+.sliderValue {
+	border:0; 
+	font-weight:bold;
+	width: 30px;
+	text-align: right;
+}
+
+.form-column {
+	width: 185px;
+	padding-right: 10px;
+	float: left;
+}
+
+.last-column {
+	padding-right: 0px;
+}
+
+#outputText {
+	padding: 15px;
+	background-color: #ddd;
+	font-family: "Lucida Sans Unicode";
+	width: 550px;
+}
+
+.watermark {
+	color: #aaa;
+}
+
+div.grippie {
+	background:#EEEEEE url(images/grippie.png) no-repeat scroll center 2px;
+	border-color:#DDDDDD;
+	border-style:solid;
+	border-width:0pt 1px 1px;
+	cursor:s-resize;
+	height:9px;
+	overflow:hidden;
+	margin-bottom: 10px;
+}
