@@ -1,4 +1,3 @@
-
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
@@ -340,7 +339,7 @@ hr {
 
 #textInput {
 	width: 576px;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
 	font-weight: normal;
 	margin: 5px 0px 0px 0px;
 }
@@ -365,7 +364,8 @@ hr {
 #outputText {
 	padding: 15px;
 	background-color: #ddd;
-	font-family: "Lucida Sans Unicode";
+	font-family: "Lucida Sans Unicode", "Lucida Grande";
+	font-size: 15px;
 	width: 550px;
 }
 
