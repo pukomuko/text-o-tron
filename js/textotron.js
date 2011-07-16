@@ -187,9 +187,10 @@ var globalSnippetCount = 0;
 function appendSnippet(text, score) {
 	globalSnippetCount++;
 	$('#blankState').remove();
-	$('#snippetList').append('<li><p>'+text+'</p><div id="score'+ globalSnippetCount +'"></div></li>');
+	$('#snippetList').append('<li><p>'+text+'</p><div id="score'+ globalSnippetCount +'"></div><a href="http://twitter.com/share" class="twitter-share-button" data-text="'+ text +' § http://bitly.com/textotron" data-count="none" >Tweet</a></li>');
 	$('#score'+globalSnippetCount).raty({
 		readOnly: true,
 		start: score,
 	});
+	$.ajax({ url: 'http://platform.twitter.com/widgets.js', dataType: 'script', cache:true});
 }
