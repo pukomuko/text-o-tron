@@ -57,8 +57,8 @@
 		$("#garbleSlider").slider({
 			range: "min",
 			min: 1,
-			max: 10,
-			value: 4,
+			max: 8,
+			value: 3,
 			slide: function(event, ui) {
 				$("#garble").val(ui.value);
 			}
@@ -141,8 +141,12 @@
 			return text;
 		}
 		
+		function pad(text) {
+			return ' ' + text + ' ';
+		}
+		
 		$('#textotronButton').click(function() {
-			outputText = textotron($('#textInput').val(), $("#garble").val(), $("#outputLength").val());
+			outputText = textotron(pad($('#textInput').val()), $("#garble").val(), $("#outputLength").val());
 			$("#outputText").text(outputText);
 			_gaq.push(['_trackEvent', 'Garble', 'Press', $("#garble").val()]);
 		});
